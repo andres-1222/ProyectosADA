@@ -16,7 +16,7 @@ public class Ejercicio01 {
         return empleados;
     }
     public static void main(String[] args) throws Exception {
-        for (Empleado e:parsearEmpleados("datos/empleados.xml"))
-            System.out.println(e.getId()+" | "+e.getNombre()+" | "+e.getSalario());
+        for (Empleado empleadoDOM:parsearEmpleados("datos/empleados.xml"))
+            System.out.println(empleadoDOM.getId()+" | "+empleadoDOM.getNombre()+" | "+empleadoDOM.getSalario());
     }
 }

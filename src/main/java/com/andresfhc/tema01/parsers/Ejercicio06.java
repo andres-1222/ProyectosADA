@@ -18,7 +18,8 @@ public class Ejercicio06 {
         return alumnos;
     }
     public static void main(String[] args) throws Exception {
-        double mejorNota=Double.NEGATIVE_INFINITY,mejorMedia=Double.NEGATIVE_INFINITY;
+        double mejorNota = -1;
+        double mejorMedia = -1;
         String mejorAlumnoNota="",mejorAsignatura="",mejorAlumnoMedia="";
         for(Alumno a:cargar("datos/alumnos.json")) {
             double suma=0;
